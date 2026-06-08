@@ -1,0 +1,25 @@
+/* Vane docs custom styles */
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0a1628; }
+::-webkit-scrollbar-thumb { background: #b5451b; border-radius: 3px; }
+
+/* Code blocks — ensure dark background */
+pre, code {
+  background-color: #060d18 !important;
+  border: 1px solid rgba(181,69,27,0.2) !important;
+}
+
+/* Links */
+a {
+  color: #b5451b;
+}
+a:hover {
+  color: #c8552a;
+}
+
+/* Sidebar active item */
+[data-active="true"] {
+  color: #b5451b !important;
+}

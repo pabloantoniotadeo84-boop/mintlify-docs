@@ -7,18 +7,40 @@
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
+  "appearance": {
+    "default": "dark"
+  },
   "colors": {
     "primary": "#b5451b",
     "light": "#c8552a",
-    "dark": "#9a3510"
+    "dark": "#9a3510",
+    "background": {
+      "dark": "#0a1628",
+      "light": "#f5f0e8"
+    }
   },
+  "fonts": {
+    "heading": {
+      "family": "Bricolage Grotesque",
+      "source": "google"
+    },
+    "body": {
+      "family": "Bricolage Grotesque",
+      "source": "google"
+    }
+  },
+  "css": ["/styles/custom.css"],
   "navbar": {
     "links": [
       {
         "label": "GitHub",
-        "href": "https://github.com/vane-build"
+        "href": "https://github.com/vane-build/vane"
       }
-    ]
+    ],
+    "primary": {
+      "label": "Request Access",
+      "href": "https://vane.build/#contact"
+    }
   },
   "navigation": {
     "pages": [
@@ -86,7 +108,7 @@
   },
   "footer": {
     "socials": {
-      "github": "https://github.com/vane-build"
+      "github": "https://github.com/vane-build/vane"
     }
   }
 }

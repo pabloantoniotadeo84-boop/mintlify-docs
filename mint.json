@@ -6,6 +6,9 @@
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
+  "modeToggle": {
+    "default": "dark"
+  },
   "colors": {
     "primary": "#b5451b",
     "light": "#c8552a",
@@ -13,14 +16,31 @@
     "anchors": {
       "from": "#b5451b",
       "to": "#c8552a"
+    },
+    "background": {
+      "dark": "#0a1628",
+      "light": "#f5f0e8"
     }
   },
+  "font": {
+    "headings": {
+      "family": "Bricolage Grotesque"
+    },
+    "body": {
+      "family": "Bricolage Grotesque"
+    }
+  },
+  "customCss": ["/styles/custom.css"],
   "topbarLinks": [
     {
       "name": "GitHub",
-      "url": "https://github.com/vane-build"
+      "url": "https://github.com/vane-build/vane"
     }
   ],
+  "topbarCtaButton": {
+    "name": "Request Access",
+    "url": "https://vane.build/#contact"
+  },
   "navigation": [
     {
       "group": "Getting Started",
@@ -84,6 +104,6 @@
     }
   ],
   "footerSocials": {
-    "github": "https://github.com/vane-build"
+    "github": "https://github.com/vane-build/vane"
   }
 }
