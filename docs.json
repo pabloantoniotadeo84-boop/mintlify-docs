@@ -13,21 +13,7 @@
   "colors": {
     "primary": "#b5451b",
     "light": "#c8552a",
-    "dark": "#9a3510",
-    "background": {
-      "dark": "#0a1628",
-      "light": "#f5f0e8"
-    }
-  },
-  "fonts": {
-    "heading": {
-      "family": "Bricolage Grotesque",
-      "source": "google"
-    },
-    "body": {
-      "family": "Bricolage Grotesque",
-      "source": "google"
-    }
+    "dark": "#9a3510"
   },
   "css": ["/styles/custom.css"],
   "navbar": {
@@ -38,6 +24,7 @@
       }
     ],
     "primary": {
+      "type": "button",
       "label": "Request Access",
       "href": "https://vane.build/#contact"
     }
