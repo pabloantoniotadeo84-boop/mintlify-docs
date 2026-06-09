@@ -7,3 +7,21 @@ body, h1, h2, h3, h4, h5, h6, p, a, span, button, input {
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: #0a1628; }
 ::-webkit-scrollbar-thumb { background: #b5451b; border-radius: 3px; }
+
+/* Dark mode — navy */
+html.dark body,
+html.dark main,
+html.dark aside,
+html.dark nav,
+html.dark .sidebar {
+  background-color: #0a1628 !important;
+}
+
+/* Light mode — off-white */
+html body,
+html main,
+html aside,
+html nav,
+html .sidebar {
+  background-color: #f5f0e8 !important;
+}
